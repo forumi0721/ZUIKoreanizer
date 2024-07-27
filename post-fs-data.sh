@@ -18,5 +18,5 @@ MODDIR=${0%/*}
 	fi
 
 	echo "[Device Compatibility Check] End"
-} > /data/local/tmp/ZUIKoreanizer-post-fs-data.log 2>&1
+} > /data/local/tmp/ZuiKoreanizer-post-fs-data.log 2>&1
 

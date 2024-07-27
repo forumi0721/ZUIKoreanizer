@@ -36,5 +36,5 @@ replace_value_resetprop(){
 	rm -rf /data/user/*/com.zui.launcher/databases/global_search.db
 
 	echo "End at $(date '+%Y-%m-%d %H:%M:%S')"
-} > /data/local/tmp/ZUIKoreanizer-service.log 2>&1
+} > /data/local/tmp/ZuiKoreanizer-service.log 2>&1
 

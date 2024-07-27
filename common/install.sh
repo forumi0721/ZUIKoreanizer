@@ -510,8 +510,8 @@ ui_print ""
 
 # Additional Information
 ui_print "==> Additional Information"
-ui_print " To ensure all features work correctly, please install the Xposed module ZUIKoreanizer."
-ui_print " 모든 기능이 정상적으로 동작하려면 Xposed 모듈 ZUIKoreanizer를 설치해야 합니다."
+ui_print " To ensure all features work correctly, please install the Xposed module ZuiTweak."
+ui_print " 모든 기능이 정상적으로 동작하려면 Xposed 모듈 ZuiTweak을 설치해야 합니다."
 ui_print ""
 
 # Configuration complete
