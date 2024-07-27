@@ -1,0 +1,37 @@
+<configs> 
+    <!-- List of special configuration smallestWidth, used when layout is too small or big to fit its window size
+         package: activity or application package name
+         specialSw: '-1' mean framework calculate it, or special value ODM set -->
+    <app>
+        <!-- LeLiao app -->
+        <package>com.samsundot.talking</package>
+        <specialSw>-1</specialSw>
+    </app>
+    <app>
+        <!-- WeChat login activity -->
+        <package>com.tencent.mm/.plugin.account.ui.WelcomeActivity</package>
+        <specialSw>550</specialSw>
+    </app>
+    <app>
+        <!-- bankcomm main activity -->
+        <package>com.bankcomm.Bankcomm/com.bankcomm.module.biz.home.MainActivity</package>
+        <specialSw>-1</specialSw>
+    </app>
+    <app>
+        <!-- mtxx main activity -->
+        <package>com.mt.mtxx.mtxx/.MainActivity</package>
+        <specialSw>-1</specialSw>
+    </app>
+    <app>
+        <package>tw.com.parenting.storytime/.view.activity.MainActivity</package>
+        <specialSw>-1</specialSw>
+    </app>
+    <app>
+        <package>com.outfit7.talkinggingerfree</package>
+        <specialSw>-1</specialSw>
+    </app>
+    <app>
+        <package>com.mod.grandmaobby.escapecookie</package>
+        <specialSw>-1</specialSw>
+    </app>
+</configs>
