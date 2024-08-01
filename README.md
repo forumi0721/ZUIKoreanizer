@@ -12,7 +12,6 @@
 4. **불필요한 앱/중국 앱 삭제:** 기본적으로 설치된 불필요한 앱 및 중국 앱을 삭제합니다.
 5. **AP500U 활성화:** AP500U 기능을 활성화합니다.
 6. **DRM 컨텐츠 재생을 위한 Widevine L3 강제 적용:** Widevine L3를 강제 적용하여 DRM 콘텐츠를 재생할 수 있게 합니다.
-7. **Bootanimation 교체:** 부팅 애니메이션을 교체합니다.
 
 ## 소스 코드
 소스 코드는 GitHub에서 확인할 수 있습니다: [ZuiKoreanizer 소스 코드](https://github.com/forumi0721/ZuiKoreanizer)

@@ -168,21 +168,6 @@ ui_print ""
 #fi
 #ui_print ""
 
-# Bootanimation Replacement
-STEP=$((STEP + 1))
-ui_print "==> Step ${STEP}: Bootanimation Replacement"
-ui_print " Replaces the boot animation."
-ui_print " 부트 애니메이션을 교체합니다."
-ui_print "Do you want to replace the Bootanimation?"
-ui_print " - Vol Up   = Yes"
-ui_print " - Vol Down = No"
-if chooseport; then
-    bootanimation_choice="Y"
-else
-    bootanimation_choice="N"
-fi
-ui_print ""
-
 # Keyboard Mapping Change
 STEP=$((STEP + 1))
 ui_print "==> Step ${STEP}: Keyboard Mapping Change"
@@ -220,9 +205,6 @@ if [ ! -z "${pen_service_choice}" ]; then
 fi
 if [ ! -z "${row_version_choice}" ]; then
     ui_print "$(printf " %-50s : %s\n" "ROW Version Switch" "${row_version_choice}")"
-fi
-if [ ! -z "${bootanimation_choice}" ]; then
-    ui_print "$(printf " %-50s : %s\n" "Bootanimation Replacement" "${bootanimation_choice}")"
 fi
 if [ ! -z "${keyboard_mapping_choice}" ]; then
     ui_print "$(printf " %-50s : %s\n" "Keyboard Mapping Change" "${keyboard_mapping_choice}")"
@@ -457,22 +439,6 @@ if [ ! -z "${row_version_choice}" ]; then
         ui_print "ROW version switch complete."
     else
         ui_print "ROW version switch skipped."
-    fi
-    ui_print ""
-fi
-
-# Bootanimation Replacement
-if [ ! -z "${bootanimation_choice}" ]; then
-    STEP=$((STEP + 1))
-    ui_print "==> Step ${STEP}: Bootanimation Replacement"
-    if [ "${bootanimation_choice}" == "Y" ]; then
-        ui_print "Switching to new bootanimation..."
-        ui_print " - /system/product/media/bootanimation.zip"
-        mkdir -p ${product_path}/media
-        cp -a $MODPATH/common/files/stonecold-bootanimation/bootanimation.zip ${product_path}/media/
-        ui_print "Bootanimation replacement complete."
-    else
-        ui_print "Bootanimation replacement skipped."
     fi
     ui_print ""
 fi
