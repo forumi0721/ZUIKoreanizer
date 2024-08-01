@@ -1,7 +1,7 @@
 id=stonecold-zuikoreanizer
 name=ZuiKoreanizer
-version=v1.0.0
-versionCode=100
+version=v1.0.3
+versionCode=103
 author=StoneCold
 description=A Magisk/APatch module for Korean localization of the Xiaoxin Pad Pro 12.7
 updateJson=https://raw.githubusercontent.com/forumi0721/ZuiKoreanizer/latest/update.json
